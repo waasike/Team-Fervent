@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Fervent's Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="here">
+        <div class="yeah">
+            <h1>TEAM FERVENT'S SIMPLE CALCULATOR</h1>
+        </div>
+    </section>
+    <div>
+        <P>As Team Fervent, we worked as a team full of passion to create a simple functional calculator.<br> We
+            are strong believers that having passion to try new ideas has really helped us as a team to create this
+            project.</P>
+        <p>This is a simple calculator which can be used to solve math problems.</p>
+    </div>
+    <section>
+        <table class="calculator">
+            <tr>
+                <td colspan="4"> <input class="display-box" type="text" id="result" disabled></td>
+            </tr>
+            <tr>
+                <td colspan="3"><input class="button" type="button" value="AC" onclick="clearScreen()"
+                        style="background-color: grey;">
+                </td>
+
+
+                <td><input class="button" type="button" value="/" onclick="display('/')"
+                        style="background-color: blue;">
+                </td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="7" onclick="display('7')"
+                        style="background-color: purple;">
+                </td>
+                <td><input class="button" type="button" value="8" onclick="display('8')"
+                        style="background-color: purple;">
+                </td>
+                <td><input class="button" type="button" value="9" onclick="display('9')"
+                        style="background-color: purple;">
+                </td>
+                <td><input class="button" type="button" value="*" onclick="display('*')"
+                        style="background-color: blue;">
+                </td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="4" onclick="display('4')"
+                        style="background-color: purple;">
+                </td>
+                <td><input class="button" type="button" value="5" onclick="display('5')"
+                        style="background-color: purple;">
+                </td>
+                <td><input class="button" type="button" value="6" onclick="display('6')"
+                        style="background-color: purple;">
+                </td>
+                <td><input class="button" type="button" value="-" onclick="display('-')"
+                        style="background-color: blue;">
+                </td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="1" onclick="display('1')"
+                        style="background-color: purple;">
+                </td>
+                <td><input class="button" type="button" value="2" onclick="display('2')"
+                        style="background-color: purple;">
+                </td>
+                <td><input class="button" type="button" value="3" onclick="display('3')"
+                        style="background-color: purple;">
+                </td>
+                <td><input class="button" type="button" value="+" onclick="display('+')"
+                        style="background-color: blue;">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <input class="button" type="button" value="0" onclick="display('0')"
+                        style="background-color: purple;"></td>
+                <td><input class="button" type="button" value="." onclick="display('.')"
+                        style="background-color: purple;">
+                </td>
+                <td><input class="button" type="button" value="=" onclick="calculate()" style="background-color: blue;">
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="there">
+        <div class="present">
+            <p>This project was created by Team Fervent. Consisting of the following members:</p>
+            <ol>
+                <li>Tonnie Okinyi</li>
+                <li>Mitchelle Wasike</li>
+                <li>James Omondi</li>
+                <li>Emmanuel Kipkemboi</li>
+            </ol>
+        </div>
+    </section>
+
+
+
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
